@@ -1,9 +1,36 @@
-img{
-    width: 200px;
-    height:200px;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+body{
+    background-image: url(https://i.pinimg.com/originals/dc/05/51/dc0551bebd9cc8d85cd996e19e3e87e1.jpg);
 }
-#photo-template{
+img{
+    width: 250px;
+    height: 250px;
+    margin-left:30px;
+    border: 1px solid black;
+}
+.photo-template{
     float: left;
-    box-sizing: border-box;
+    width: 320px;
+    height: 420px;
+    box-sizing:border-box;
+    background: rgb(146, 146, 146);
+    border: 1px solid black;
+    margin: 0 5px 13px 8px;
+    box-shadow: rgb(88, 88, 88) 5px 5px;
+}
+footer{
+    clear:left;
+}
+p , h2{
+  text-align: center;
+  font-family: 'Courgette', cursive;
+}
+h1{
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+}
+footer{
+    text-align: center;
 }
